@@ -73,24 +73,28 @@ for url in article_urls:
     soup = extractor.extract_article(url)
     # Process structured content...
 
-Proprietary Components
+## Proprietary Components
+
 The complete pipeline includes additional proprietary components:
 
-Market Data Integration: WRDS API integration for calculating abnormal returns
-ML Training Pipeline: Custom reinforcement learning implementation using market reactions as reward signals
-Entity Anonymization: Sophisticated info redaction to prevent model memorization
-Model Architecture: Fine-tuned language models for financial news analysis
+- **Market Data Integration**: WRDS API integration for calculating abnormal returns
+- **ML Training Pipeline**: Custom reinforcement learning implementation using market reactions as reward signals
+- **Entity Anonymization**: Sophisticated company name redaction to prevent model memorization
+- **Model Architecture**: Fine-tuned language models for financial news analysis
 
 These components remain proprietary due to their commercial value and novel methodologies.
-Applications
 
-Quantitative Finance: Systematic news analysis for trading strategies
-Risk Management: Automated monitoring of corporate developments
-Research: Academic studies on news impact and market efficiency
-International Expansion: Language-agnostic analysis for global markets
+## Applications
 
-Contact
+- **Quantitative Finance**: Systematic news analysis for trading strategies
+- **Risk Management**: Automated monitoring of corporate developments
+- **Research**: Academic studies on news impact and market efficiency
+- **International Expansion**: Language-agnostic analysis for global markets
+
+## Contact
+
 For questions about the complete pipeline or potential collaboration, please contact the repository owner.
-License
-This repository is licensed under MIT License. The proprietary ML training components are not included and remain under separate commercial licensing.
 
+## License
+
+This repository is licensed under MIT License. The proprietary ML training components are not included and remain under separate commercial licensing.
