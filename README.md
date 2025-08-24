@@ -52,7 +52,7 @@ The system uses **market reactions as ground truth labels** rather than expensiv
 - **Scale-oriented design**: Processes thousands of companies systematically
 - **Anti-detection capabilities**: Bypasses bot protection for reliable data collection
 
-  ## Proprietary Components
+## Proprietary Components
 
 The complete pipeline includes additional proprietary components:
 
