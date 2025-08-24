@@ -52,6 +52,26 @@ The system uses **market reactions as ground truth labels** rather than expensiv
 - **Scale-oriented design**: Processes thousands of companies systematically
 - **Anti-detection capabilities**: Bypasses bot protection for reliable data collection
 
+  ## Proprietary Components
+
+The complete pipeline includes additional proprietary components:
+
+- **Market Data Integration**: WRDS API integration for calculating abnormal returns
+- **ML Training Pipeline**: Custom reinforcement learning implementation using market reactions as reward signals
+- **Entity Anonymization**: Sophisticated company name redaction to prevent model memorization
+- **Model Architecture**: Fine-tuned language models for financial news analysis
+
+These components remain proprietary due to their commercial value and novel methodologies.
+
+## Applications
+
+- **Quantitative Finance**: Systematic news analysis for trading strategies
+- **Risk Management**: Automated monitoring of corporate developments
+- **Research**: Academic studies on news impact and market efficiency
+- **International Expansion**: Language-agnostic analysis for global markets
+
+## Contact
+
 ## Installation
 
   ```bash
@@ -73,25 +93,7 @@ The system uses **market reactions as ground truth labels** rather than expensiv
       soup = extractor.extract_article(url)
       # Process structured content...
 
-## Proprietary Components
 
-The complete pipeline includes additional proprietary components:
-
-- **Market Data Integration**: WRDS API integration for calculating abnormal returns
-- **ML Training Pipeline**: Custom reinforcement learning implementation using market reactions as reward signals
-- **Entity Anonymization**: Sophisticated company name redaction to prevent model memorization
-- **Model Architecture**: Fine-tuned language models for financial news analysis
-
-These components remain proprietary due to their commercial value and novel methodologies.
-
-## Applications
-
-- **Quantitative Finance**: Systematic news analysis for trading strategies
-- **Risk Management**: Automated monitoring of corporate developments
-- **Research**: Academic studies on news impact and market efficiency
-- **International Expansion**: Language-agnostic analysis for global markets
-
-## Contact
 
 For questions about the complete pipeline or potential collaboration, please contact the repository owner.
 
