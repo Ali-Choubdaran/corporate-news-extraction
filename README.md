@@ -71,6 +71,12 @@ These components remain proprietary due to their commercial value and novel meth
 - **International Expansion**: Language-agnostic analysis for global markets
 
 ## Contact
+For questions about the complete pipeline or potential collaboration, please contact the repository owner.
+
+## License
+
+This repository is licensed under MIT License. The proprietary ML training components are not included and remain under separate commercial licensing.
+
 
 ## Installation
 
@@ -95,8 +101,3 @@ These components remain proprietary due to their commercial value and novel meth
 
 
 
-For questions about the complete pipeline or potential collaboration, please contact the repository owner.
-
-## License
-
-This repository is licensed under MIT License. The proprietary ML training components are not included and remain under separate commercial licensing.
