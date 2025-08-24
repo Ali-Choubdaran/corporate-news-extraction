@@ -54,24 +54,24 @@ The system uses **market reactions as ground truth labels** rather than expensiv
 
 ## Installation
 
-```bash
-pip install -r requirements.txt
-
-from news_url_extractor import NewsGroupFinder
-from article_content_extractor import ArticleExtractor
-
-# Step 1: Discover article URLs
-finder = NewsGroupFinder("https://news.company.com/")
-news_groups = finder.find_all_news_groups()
-article_urls = []
-for group in news_groups:
-    article_urls.extend(group['urls'].iloc[0])
-
-# Step 2: Extract clean content
-extractor = ArticleExtractor()
-for url in article_urls:
-    soup = extractor.extract_article(url)
-    # Process structured content...
+  ```bash
+  pip install -r requirements.txt
+  
+  from news_url_extractor import NewsGroupFinder
+  from article_content_extractor import ArticleExtractor
+  
+  # Step 1: Discover article URLs
+  finder = NewsGroupFinder("https://news.company.com/")
+  news_groups = finder.find_all_news_groups()
+  article_urls = []
+  for group in news_groups:
+      article_urls.extend(group['urls'].iloc[0])
+  
+  # Step 2: Extract clean content
+  extractor = ArticleExtractor()
+  for url in article_urls:
+      soup = extractor.extract_article(url)
+      # Process structured content...
 
 ## Proprietary Components
 
